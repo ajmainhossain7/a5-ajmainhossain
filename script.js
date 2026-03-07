@@ -9,7 +9,7 @@ document.getElementById("loginForm").addEventListener("submit", (event) => {
     const pass = document.getElementById("password").value
     if (user === "admin" && pass === "admin123") {
         localStorage.setItem("auth", "true")
-        window.location.href = "dashboard.html"
+        window.location.href = "./dashdoard.html"
     } else {
         alert("Invalid credentials")
     }
